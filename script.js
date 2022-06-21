@@ -19,6 +19,7 @@ const handleChange = () => {
 
   if (username.value && password.value.length >= 8) {
     button.removeAttribute('disabled');
+    return
   } else {
     button.setAttribute('disabled', '');
   }
@@ -26,4 +27,4 @@ const handleChange = () => {
 
 inputs.forEach((input) => input.addEventListener('focus', handleFocus));
 inputs.forEach((input) => input.addEventListener('focusout', handleFocusOut));
-inputs.forEach((input) => input.addEventListener('focusout', handleChange));
+inputs.forEach((input) => input.addEventListener('input', handleChange));
