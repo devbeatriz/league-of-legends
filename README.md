@@ -2,7 +2,7 @@
 
 ![league-of-legends](https://user-images.githubusercontent.com/94017930/174056434-87639a72-2f5d-476a-813b-8ae98020ed47.PNG)
 
-<p align="center"> Clique <a href="https://league-of-legends-sigma.vercel.app/">aqui</a> para ver o projeto.
+<p align="center"> Clique <a href=https://lol-db.vercel.app/>aqui</a> para ver o projeto.
   
 ## :rocket: Tecnologias
  - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
